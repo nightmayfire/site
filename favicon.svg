@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <style>
+        @media (prefers-color-scheme: light) {
+            #background { fill: white; }
+            #letter { fill: #1a1a1a; }
+            #shadow { fill: rgba(0,0,0,0.08); }
+            #border { stroke: #e8e8e8; }
+        }
+        @media (prefers-color-scheme: dark) {
+            #background { fill: #1e1e1e; }
+            #letter { fill: #f0f0f0; }
+            #shadow { fill: rgba(0,0,0,0.3); }
+            #border { stroke: #3a3a3a; }
+        }
+    </style>
+    <rect id="shadow" x="16" y="16" width="100" height="100" rx="20" ry="20" />
+    <rect id="background" x="14" y="14" width="100" height="100" rx="20" ry="20" />
+    <rect id="border" x="14" y="14" width="100" height="100" rx="20" ry="20" fill="none" stroke-width="1.5" />
+    <text id="letter" x="64" y="64" font-family="'Fira Code', 'JetBrains Mono', 'Courier New', monospace" font-size="80" font-weight="bold" text-anchor="middle" dominant-baseline="central">a</text>
+</svg>
